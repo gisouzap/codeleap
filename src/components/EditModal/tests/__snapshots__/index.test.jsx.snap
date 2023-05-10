@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditModal should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="modal"
+  >
+    <div
+      class="card"
+      style="width: 670px;"
+    >
+      <div
+        class="modal-wrapper"
+      >
+        <p
+          class="title"
+        >
+          Edit item
+        </p>
+        <div
+          class="input-group"
+        >
+          <p
+            class="label"
+          >
+            Title
+          </p>
+          <input
+            class="input"
+            type="text"
+            value="CodeLeap"
+          />
+        </div>
+        <div
+          class="input-group"
+        >
+          <p
+            class="label"
+          >
+            Content
+          </p>
+          <textarea
+            class="textarea"
+          >
+            Hello world
+          </textarea>
+        </div>
+      </div>
+      <div
+        class="buttons"
+      >
+        <button
+          class="button light"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="button success"
+          type="button"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EditModal should render and match the snapshot equal null 1`] = `<div />`;

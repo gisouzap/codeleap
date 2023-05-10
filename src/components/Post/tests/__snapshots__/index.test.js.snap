@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="post"
+  >
+    <div
+      class="post-header"
+    >
+      <p
+        class="title"
+      >
+        CodeLeap
+      </p>
+      <div
+        class="post-icons"
+      >
+        <button
+          class="post-icon"
+          type="button"
+        >
+          <img
+            src="test-file-stub"
+            title="Delete"
+          />
+        </button>
+        <button
+          class="post-icon"
+          type="button"
+        >
+          <img
+            src="test-file-stub"
+            title="Edit"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="post-wrapper"
+    >
+      <div
+        class="post-details"
+      >
+        <p
+          class="bodyBold"
+        >
+          codeleapUser
+        </p>
+        <p
+          class="body"
+        >
+          NaN years ago
+        </p>
+      </div>
+      <div
+        class="post-content"
+      >
+        <p
+          class="body"
+        >
+          Hello world
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

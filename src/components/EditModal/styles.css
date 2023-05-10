@@ -1,0 +1,13 @@
+.modal-wrapper,
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-wrapper {
+  gap: 24px;
+}
+
+.input-group {
+  gap: 8px;
+}
