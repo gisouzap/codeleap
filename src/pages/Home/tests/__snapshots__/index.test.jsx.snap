@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <div
+      class="home-wrapper"
+    >
+      <div
+        class="home-header"
+      >
+        <p
+          class="title"
+        >
+          CodeLeap Network
+        </p>
+        <button
+          class="button-logout"
+        >
+          <p
+            class="label"
+          >
+            Logout
+          </p>
+        </button>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="form"
+        >
+          <p
+            class="title"
+          >
+            What’s on your mind?
+          </p>
+          <div>
+            <p
+              class="label"
+            >
+              Title
+            </p>
+            <input
+              class="input"
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <p
+              class="label"
+            >
+              Content
+            </p>
+            <textarea
+              class="textarea"
+            />
+          </div>
+          <div
+            class="button-create"
+          >
+            <button
+              class="button primary"
+              disabled=""
+              type="button"
+            >
+              create
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="posts"
+        data-testid="scroll-element"
+      />
+    </div>
+  </div>
+</div>
+`;

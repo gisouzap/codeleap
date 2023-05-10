@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup should match the snapshot 1`] = `
+<div>
+  <div
+    class="signup"
+  >
+    <div
+      class="signup-wrapper"
+    >
+      <div
+        class="card"
+      >
+        <p
+          class="title"
+        >
+          Welcome to CodeLeap network!
+        </p>
+        <div
+          class="card-input"
+        >
+          <p
+            class="label"
+          >
+            Please enter your username
+          </p>
+          <input
+            class="input"
+            placeholder="John doe"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="card-button"
+        >
+          <button
+            class="button primary"
+            disabled=""
+            type="button"
+          >
+            Enter
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
